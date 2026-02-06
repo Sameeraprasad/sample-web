@@ -14,3 +14,16 @@ cat authorized_keys
 exit
 cat .ssh/authorized_keys 
 exit
+git --version
+sudo yum install git -y
+git --version
+git init
+ls -la
+git status
+git add file.sh
+git status
+git add .
+git status
+git commit -m "first commit"
+git status
+git log
